@@ -1,0 +1,70 @@
+/* COLOR PALLETE */
+$--color-primary: #0a0909;
+$--color-secondary: #ffffff;
+$--color-tertiary: #dadada;
+$--color-quarternary: #989797;
+$--color-quinary: #cbcbcb;
+$--color-senary: #f8f8f8;
+$--color-septenary: #e5e5e5;
+$--color-octonary: #353535;
+$--color-nonary: #0a090914;
+$--color-decenary: #0a090980;
+$--color-undenary: #4fcc81;
+$--color-duonary: #14b08b;
+
+/* 
+rename these later idk what comes in the series after 12, 
+has only been used in wallet-dropdown
+*/
+$--color-scared-baguette: #f0f0f0;
+$--color-valentines: #35353599;
+$--color-fifteen: #b15151;
+
+$--gradient-primary: linear-gradient(242.06deg, #4fcc81 37.1%, #14b08b 88.56%);
+$--gradient-secondary: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.25)
+  ),
+  linear-gradient(242.06deg, #14b08b 37.1%, #4fcc81 88.56%);
+$--color-gradient-primary: $--color-undenary;
+$--color-gradient-accent: $--color-duonary;
+/* COLOR PALLETE */
+
+/* TEXT */
+$--color-text-primary: $--color-primary;
+$--color-text-secondary: $--color-secondary;
+$--color-text-input: $--color-quarternary;
+// $--color-text-accent: #ffffff;
+// $--color-text-hover: #ffffff;
+$--color-text-disabled: rgba($--color-primary, 0.08);
+$--color-text-expired: $--color-fifteen;
+$--color-text-wallet: $--color-octonary;
+
+$--gradient-text-primary: -webkit-linear-gradient(
+  242.06deg,
+  #4fcc81 37.1%,
+  #14b08b 88.56%
+);
+$--gradient-text-secondary: -webkit-linear-gradient(
+  242.06deg,
+  #14b08b 37.1%,
+  #4fcc81 88.56%
+);
+/* TEXT */
+
+/* BACKGROUND */
+$--background-page: $--color-septenary;
+$--background-color-disabled: $--color-senary;
+/* BACKGROUND */
+
+/* BORDERS */
+$--color-border-active: $--gradient-primary;
+$--color-border-inactive: $--color-quinary;
+$--color-border-hover: $--color-border-inactive;
+$--color-border-disabled: $--background-color-disabled;
+/* BORDERS */
+
+/* BOX/DROP SHADOWS */
+$--box-shadow-hover: rgba(18, 23, 21, 0.06);
+/* BOX/DROP SHADOWS */

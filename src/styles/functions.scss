@@ -1,0 +1,17 @@
+@use "sass:math";
+$browser-context: 16; // Default
+
+/* Max Actually Use Need/Use This Later */
+@function em($pixels, $context: $browser-context) {
+  $emVarialbe: math.div($pixels, $context);
+  @return #{$emVarialbe}em;
+}
+
+$html-font-size: 16px;
+@function stripUnit($value) {
+  @return math.div($value, $value * 0 + 1);
+}
+@function rem($pxValue) {
+  $remValue: math.div(stripUnit($pxValue), stripUnit($html-font-size));
+  @return #{$remValue}rem;
+}
