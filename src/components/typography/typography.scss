@@ -1,0 +1,12 @@
+@import "../../App.scss";
+.typography {
+  font-family: "Space Mono";
+  font-weight: 400;
+  text-shadow: 1px 1px 10px #000000;
+  &.bold {
+    font-weight: 700;
+  }
+  &.italic {
+    font-style: italic;
+  }
+}

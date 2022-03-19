@@ -1,0 +1,21 @@
+.profile {
+  position: relative;
+  width: 70vw;
+  height: 40rem;
+  display: flex;
+  .banner {
+    // position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .avDetails {
+    position: absolute;
+    left: 5%;
+    top: 15rem;
+    @media screen and (max-width: 1140px) {
+      top: 15rem;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}

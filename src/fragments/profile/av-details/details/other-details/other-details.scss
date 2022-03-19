@@ -1,0 +1,7 @@
+.otherDetails {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 1140px) {
+    align-items: center;
+  }
+}

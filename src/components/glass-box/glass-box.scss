@@ -1,0 +1,17 @@
+.glassBox {
+  width: fit-content;
+  min-height: fit-content;
+  box-shadow: 0 0 1rem 0
+    rgba(
+      $color: (
+        #000000,
+      ),
+      $alpha: 0.5
+    );
+  border-radius: 1rem;
+  background-color: rgba($color: #000000, $alpha: 0.65);
+  backdrop-filter: saturate(180%) blur(1000px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

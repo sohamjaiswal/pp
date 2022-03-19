@@ -1,0 +1,31 @@
+$desktop: 960px;
+$widescreen: 1152px;
+$fullhd: 1344px;
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  @media screen and (max-width: $fullhd) {
+    width: 90%;
+  }
+  @media screen and (max-width: $widescreen) {
+    width: 95%;
+  }
+  @media screen and (max-width: $desktop) {
+    width: 100%;
+  }
+}
+.container.--padding {
+  padding: 0 10%;
+  box-sizing: border-box;
+  width: 100%;
+  @media screen and (max-width: $fullhd) {
+    width: 100%;
+  }
+  @media screen and (max-width: $widescreen) {
+    width: 100%;
+  }
+  @media screen and (max-width: $desktop) {
+    width: 100%;
+  }
+}
