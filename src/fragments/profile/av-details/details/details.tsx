@@ -8,8 +8,10 @@ import { OtherDetails } from "./other-details";
 export const Details = ({ name, otherDetails }: IDetailsProps) => {
   return (
     <div className="details">
-      <Name name={name} />
-      <OtherDetails {...otherDetails} />
+      <div className="mainDetails">
+        <Name name={name} />
+        <OtherDetails {...otherDetails} />
+      </div>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 import React from "react";
-import { Typography } from "../typography";
+import { Typography } from "../../components/typography";
 import { IIconTextProps } from "./icon-text.types";
 import { IconContext } from "react-icons";
 import { iconsColor } from "../../styles/colors";
+import { Badge } from "../../components/badge";
 
 export const IconText = ({
   spacing = 1,
@@ -19,11 +20,7 @@ export const IconText = ({
         alignItems: "center",
       }}
     >
-      <IconContext.Provider
-        value={{ className: "icon", size: `${size}rem`, color: iconsColor }}
-      >
-        {icon}
-      </IconContext.Provider>
+      <Badge icon={icon} size={size} />
       <Typography label={label} bold size={size} />
     </div>
   );

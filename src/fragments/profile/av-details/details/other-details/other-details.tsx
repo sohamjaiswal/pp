@@ -1,6 +1,6 @@
 import React from "react";
 import { FaDiscord, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { IconText } from "../../../../../components/icon-text";
+import { IconText } from "../../../../icon-text";
 
 import "./other-details.scss";
 import { IOtherDetailsProps } from "./other-details.types";
