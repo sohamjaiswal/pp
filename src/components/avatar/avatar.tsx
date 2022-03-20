@@ -3,15 +3,12 @@ import React from "react";
 import useColorThief from "use-color-thief";
 
 import { IAvatarProps } from "./avatar.types";
+import { getColor } from "./avatar.logic";
 
-export const Avatar = ({ image, size }: IAvatarProps) => {
-  let { color } = useColorThief(image, {
-    format: "hex",
-    colorCount: 10,
-    quality: 10,
-  });
-  if (color === null) {
-    color = "black";
+export const Avatar = ({ image, size, color }: IAvatarProps) => {
+  let ringColor = color ? getColor(image) : null;
+  if (ringColor === null) {
+    ringColor = "black";
   }
   return (
     <div
@@ -24,7 +21,7 @@ export const Avatar = ({ image, size }: IAvatarProps) => {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center center",
-        border: `7px solid ${color}`,
+        border: `7px solid ${ringColor}`,
       }}
     ></div>
   );
