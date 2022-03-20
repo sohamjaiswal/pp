@@ -6,10 +6,6 @@ Provided are common components and templates that would be required to make an I
 
 Usage has only been tested on linux with yarn.
 
-# Known Issue
-
-Prettier pre commit hook causes a "," in /src/components/glass-box/glass-box.scss at line 7, Remove that and everything should sail smooth from there.
-
 # Usage
 
 1. Edit main.tsx in /src/templates/main or create a new template refering to main.
