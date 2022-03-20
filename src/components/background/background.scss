@@ -1,4 +1,9 @@
 .particles-bg-canvas-self {
   background: #262626;
-  background-attachment: fixed;
+  position: fixed;
+  z-index: -1000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
 }

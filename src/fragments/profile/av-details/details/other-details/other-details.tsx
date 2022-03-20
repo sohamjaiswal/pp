@@ -13,8 +13,8 @@ export const OtherDetails = ({
 }: IOtherDetailsProps) => {
   const Location: ReactElement[] = [
     location ? <IconText icon={<FaMapMarkerAlt />} label={location} /> : <></>,
-    discord ? <IconText icon={<FaDiscord />} label={discord} /> : <></>,
     email ? <IconText icon={<FaEnvelope />} label={email} /> : <></>,
+    discord ? <IconText icon={<FaDiscord />} label={discord} /> : <></>,
   ];
   return <div className="otherDetails">{Location}</div>;
 };

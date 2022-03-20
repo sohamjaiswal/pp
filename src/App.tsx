@@ -6,16 +6,17 @@ import {
   Outlet,
 } from "react-router-dom";
 import "./App.scss";
-
-// import { Home } from "./pages/home";
+import { Main } from "./templates/main";
+import { myMainConf } from "./my-conf";
+import { NotFoundPage } from "./templates/not-found-page";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route path="*" element={<span> 404 </span>} />
+          <Route path="/" element={<Main {...myMainConf} />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,10 @@
+.textPanel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  @media screen and (max-width: 1140px) {
+    justify-content: center;
+    align-items: center;
+  }
+}

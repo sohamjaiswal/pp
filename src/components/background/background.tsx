@@ -6,5 +6,5 @@ import "./background.scss";
 import { IBackgroundProps } from "./background.types";
 
 export const Background = ({ children }: IBackgroundProps) => {
-  return <ParticlesBg color="random" type="cobweb" bg={true} />;
+  return <ParticlesBg color="random" type="cobweb" />;
 };

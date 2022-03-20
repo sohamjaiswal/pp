@@ -1,6 +1,7 @@
 import React from "react";
 import { Details } from ".";
 import { ComponentStory, Meta } from "@storybook/react";
+import { FaLinux } from "react-icons/fa";
 
 export default {
   title: "fragments/profile/av-details/details/details",
@@ -18,4 +19,5 @@ Default.args = {
   otherDetails: {
     location: "#223, Street 11",
   },
+  badges: [<FaLinux />],
 };

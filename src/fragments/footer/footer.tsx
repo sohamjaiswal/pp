@@ -7,12 +7,10 @@ import "./footer.scss";
 export const Footer = () => {
   return (
     <div className="footer">
-      <IconText icon={<FaCode />} label="Made with ❤️ by Soham" /> : <></>
-      <IconText
-        icon={<FaGithub />}
-        label="All project files can be found on my github"
-      />{" "}
-      : <></>
+      <div className="visibleFooter">
+        <IconText icon={<FaCode />} label="Made with ❤️ by Soham" />
+        <IconText icon={<FaGithub />} label="Project files on GitHub" />{" "}
+      </div>
     </div>
   );
 };

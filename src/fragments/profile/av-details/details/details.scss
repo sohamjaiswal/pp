@@ -1,9 +1,14 @@
 .details {
   display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
   .mainDetails {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+  }
+  .extendedDetails {
+    display: flex;
   }
   @media screen and (max-width: 1140px) {
     align-items: center;
