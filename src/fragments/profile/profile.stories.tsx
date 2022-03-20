@@ -20,9 +20,9 @@ Default.args = {
   avDetails: {
     avatar: "https://i.imgur.com/XV9MZFA.jpg",
     details: {
-      name: "Soham Jaiswal",
+      name: "Your Name",
       otherDetails: {
-        location: "#223, Phase 3B1",
+        location: "Your Address",
       },
     },
   },

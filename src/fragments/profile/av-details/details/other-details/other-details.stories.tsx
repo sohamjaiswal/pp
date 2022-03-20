@@ -14,5 +14,5 @@ const Template: ComponentStory<typeof OtherDetails> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  location: "#223, Street 11",
+  location: "Details",
 };

@@ -1,5 +1,12 @@
 import React from "react";
-import { FaGamepad, FaGithub, FaLinux, FaReact, FaYarn } from "react-icons/fa";
+import {
+  FaGamepad,
+  FaGithub,
+  FaKeybase,
+  FaLinux,
+  FaReact,
+  FaYarn,
+} from "react-icons/fa";
 import { Badge } from "./components/badge";
 import { IMainProps } from "./templates/main/main.types";
 export const myMainConf: IMainProps = {
@@ -7,14 +14,13 @@ export const myMainConf: IMainProps = {
     banner: "https://sohamjaiswal10.keybase.pub/background.jpg",
     avDetails: {
       avatar:
-        // "https://g.redditmedia.com/YAR8NQRfgeCqRQcuMtrk3uEO67sAnq9DLnmlmZTUiPo.gif?fm=mp4&mp4-fragmented=false&s=a98270069d63f5106ca0f375cf1bdff8",
         "https://i.pinimg.com/originals/2f/64/c4/2f64c48944573c92558bec01c7d6c502.jpg",
       details: {
-        name: "Soham Jaiswal",
+        name: "Your Name",
         otherDetails: {
-          location: "#223, Street 11, Phase 3B1",
-          discord: "TooMuchHam#0001",
-          email: "sohamjaiswal10@gmail.com",
+          location: "Your Address",
+          discord: "Your Discord",
+          email: "Your Email",
         },
         badges: [<FaLinux />, <FaGamepad />],
       },
@@ -29,6 +35,7 @@ export const myMainConf: IMainProps = {
     items: [
       <Badge icon={<FaLinux />} size={4} color="white" />,
       <Badge icon={<FaGithub />} size={4} color="white" />,
+      <Badge icon={<FaKeybase />} size={4} color="white" />,
       <Badge icon={<FaYarn />} size={4} color="white" />,
       <Badge icon={<FaReact />} size={4} color="white" />,
     ],

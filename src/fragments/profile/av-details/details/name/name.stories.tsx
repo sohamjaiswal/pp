@@ -12,5 +12,5 @@ const Template: ComponentStory<typeof Name> = (args) => <Name {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  name: "Soham Jaiswal",
+  name: "Your Name",
 };

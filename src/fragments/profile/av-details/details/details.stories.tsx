@@ -15,9 +15,9 @@ const Template: ComponentStory<typeof Details> = (args) => (
 
 export const Default = Template.bind({});
 Default.args = {
-  name: "Soham Jaiswal",
+  name: "Your Name",
   otherDetails: {
-    location: "#223, Street 11",
+    location: "Your Address",
   },
   badges: [<FaLinux />],
 };

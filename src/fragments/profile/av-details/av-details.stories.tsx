@@ -16,9 +16,9 @@ export const Default = Template.bind({});
 Default.args = {
   avatar: "https://i.imgur.com/XV9MZFA.jpg",
   details: {
-    name: "Soham Jaiswal",
+    name: "Your Name",
     otherDetails: {
-      location: "#223, Street 11",
+      location: "Your Address",
     },
   },
 };
