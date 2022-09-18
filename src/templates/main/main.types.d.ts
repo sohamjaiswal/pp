@@ -6,4 +6,5 @@ export interface IMainProps {
   profile: IProfileProps;
   aboutMe: ITextPanelProps;
   techShowcase: IShowcaseProps;
+  langShowcase: IShowcaseProps;
 }

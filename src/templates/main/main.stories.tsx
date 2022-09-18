@@ -15,7 +15,7 @@ const Template: ComponentStory<typeof Main> = (args) => <Main {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   profile: {
-    banner: "https://sohamjaiswal10.keybase.pub/background.jpg",
+    banner: "https://wallpaperaccess.com/full/4357971.jpg",
     avDetails: {
       avatar:
         // "https://g.redditmedia.com/YAR8NQRfgeCqRQcuMtrk3uEO67sAnq9DLnmlmZTUiPo.gif?fm=mp4&mp4-fragmented=false&s=a98270069d63f5106ca0f375cf1bdff8",

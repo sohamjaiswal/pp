@@ -2,11 +2,10 @@
   flex-grow: 1;
   position: relative;
   width: 100%;
-  height: 27.5rem;
+  height: 30rem;
   display: flex;
   .banner {
-    // position: absolute;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
   .avDetails {
@@ -15,8 +14,8 @@
     top: 15rem;
   }
   @media screen and (max-width: 1140px) {
-    width: 95vw;
     height: 36rem;
+    padding-bottom: 2.5rem;
     .avDetails {
       top: 15rem;
       left: 50%;

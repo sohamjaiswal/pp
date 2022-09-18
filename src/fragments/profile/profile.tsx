@@ -13,7 +13,7 @@ export const Profile = ({ avDetails, banner }: IProfileProps) => {
         style={{
           height: "20rem",
           width: "100%",
-          background: `url(${banner})`,
+          backgroundImage: `url(${banner})`,
         }}
       ></div>
       <AvDetails {...avDetails} />

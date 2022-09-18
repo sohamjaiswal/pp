@@ -10,7 +10,12 @@ import { TextPanel } from "../../fragments/text-panel";
 import "./main.scss";
 import { IMainProps } from "./main.types";
 
-export const Main = ({ profile, aboutMe, techShowcase }: IMainProps) => {
+export const Main = ({
+  profile,
+  aboutMe,
+  techShowcase,
+  langShowcase,
+}: IMainProps) => {
   return (
     <div className="main">
       <Container>
@@ -18,6 +23,7 @@ export const Main = ({ profile, aboutMe, techShowcase }: IMainProps) => {
           <GlassBox>
             <Profile {...profile} />
             <TextPanel {...aboutMe} />
+            <Showcase {...langShowcase} />
             <Showcase {...techShowcase} />
             <Footer />
           </GlassBox>
