@@ -8,6 +8,7 @@ import {
   FaJsSquare,
   FaRust,
   FaPython,
+  FaTerminal,
 } from "react-icons/fa";
 import { Badge } from "./components/badge";
 import { IMainProps } from "./templates/main/main.types";
@@ -18,7 +19,7 @@ export const myMainConf: IMainProps = {
       avatar:
         "https://g.redditmedia.com/YAR8NQRfgeCqRQcuMtrk3uEO67sAnq9DLnmlmZTUiPo.gif?fm=mp4&mp4-fragmented=false&s=a98270069d63f5106ca0f375cf1bdff8",
       details: {
-        name: "Soham Jaiswal",
+        name: "Ham",
         otherDetails: {
           location: "In your nightmares",
           guilded: "guilded.gg/u/sosweetham",
@@ -39,6 +40,7 @@ export const myMainConf: IMainProps = {
       <Badge icon={<FaJsSquare />} size={4} color="white" />,
       <Badge icon={<FaRust />} size={4} color="white" />,
       <Badge icon={<FaPython />} size={4} color="white" />,
+      <Badge icon={<FaTerminal />} size={4} color="white" />,
     ],
   },
   techShowcase: {
